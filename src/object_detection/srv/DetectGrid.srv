@@ -1,0 +1,5 @@
+int32 current_turn
+int8 isStartPlayer
+int8 color
+---
+int8[] detected_grid

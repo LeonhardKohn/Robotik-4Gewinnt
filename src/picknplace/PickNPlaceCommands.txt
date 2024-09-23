@@ -1,0 +1,21 @@
+rosservice call /frankX_service_node/frankX_joint "{q0: 0.0, q1: 0.0, q2: 0.0, q3: -1.56, q4: 0.0, q5: 1.56, q6: 0.8, speed: 0.0}"
+
+rosservice call /frankX_service_node/frankX_move -- 0.26 -0.21 1.1 1 5 0 0 0 0
+
+rosservice call /frankX_service_node/frankX_gripper -- "release" 0 0 0.05
+
+rosservice call /frankX_service_node/frankX_move -- 0.26 -0.21 0.962 1 5 0 0 0 0
+
+rosservice call /frankX_service_node/frankX_gripper -- "clamp" 0 0.01 0.05
+
+rosservice call /frankX_service_node/frankX_move -- 0.26 -0.21 1.1 1 5 0 0 0 0
+
+rosservice call /frankX_service_node/frankX_move -- 0.26 0.21 1.1 1 5 0 0 0 0
+
+rosservice call /frankX_service_node/frankX_move -- 0.26 0.21 0.972 1 5 0 0 0 0
+
+rosservice call /frankX_service_node/frankX_gripper -- "release" 0 0 0.05
+
+rosservice call /frankX_service_node/frankX_move -- 0.26 0.21 1.1 1 5 0 0 0 0
+
+rosservice call /frankX_service_node/frankX_joint "{q0: 0.0, q1: 0.0, q2: 0.0, q3: -1.56, q4: 0.0, q5: 1.56, q6: 0.8, speed: 0.0}"

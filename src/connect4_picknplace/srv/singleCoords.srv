@@ -1,0 +1,5 @@
+float64 dropoffX
+float64 dropoffY
+float64 dropoffZ
+float64 angleDiff
+---

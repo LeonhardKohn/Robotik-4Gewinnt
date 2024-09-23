@@ -1,0 +1,6 @@
+[submodule "src/franka_ros_interface"]
+	path = src/franka_ros_interface
+	url = git@gitlab.rz.uni-bamberg.de:mii/teaching/2024ss/cognitiverobotics/franka_ros_interface.git
+[submodule "src/franka_ros"]
+	path = src/franka_ros
+	url = git@gitlab.rz.uni-bamberg.de:mii/teaching/2024ss/cognitiverobotics/franka_ros.git

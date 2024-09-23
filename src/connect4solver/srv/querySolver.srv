@@ -1,0 +1,6 @@
+int8[] board
+int8 nextPlayer
+---
+int8 result
+int8 isWinFor
+bool gameFinished

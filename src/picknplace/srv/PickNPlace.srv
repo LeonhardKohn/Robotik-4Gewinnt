@@ -1,0 +1,13 @@
+float64 blockX
+float64 blockY
+float64 blockZ
+float64 blockA
+float64 blockB
+float64 blockC
+float64 dropX
+float64 dropY
+float64 dropZ
+float64 dropA
+float64 dropB
+float64 dropC
+---
